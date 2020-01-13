@@ -112,7 +112,7 @@ median_steps
 ## [1] 10765
 ```
 
-### Constructing the plot
+### Constructing the histogram
 
 ```r
 ggplot(steps_taken, aes (x = steps)) +
@@ -231,7 +231,7 @@ median_steps_all_data
 ## [1] 10766.19
 ```
 
-### Constructing the graph
+### Constructing the histogram
 
 ```r
 ggplot(steps_all_data, aes (x = steps)) +

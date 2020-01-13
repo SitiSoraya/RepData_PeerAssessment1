@@ -257,8 +257,8 @@ mean_steps</code></pre>
 median_steps</code></pre>
 <pre><code>## [1] 10765</code></pre>
 </div>
-<div id="constructing-the-plot" class="section level3">
-<h3>Constructing the plot</h3>
+<div id="constructing-the-histogram" class="section level3">
+<h3>Constructing the histogram</h3>
 <pre class="r"><code>ggplot(steps_taken, aes (x = steps)) +
   geom_histogram(fill = &quot;blue&quot;, binwidth = 900) +
   labs(title = &quot;Steps per day&quot;, x = &quot;Steps per day&quot;, y = &quot;Frequency&quot;)</code></pre>
@@ -289,7 +289,7 @@ median_steps</code></pre>
 ## 10       45 1.47  
 ## # … with 278 more rows</code></pre>
 </div>
-<div id="constructing-the-plot-1" class="section level3">
+<div id="constructing-the-plot" class="section level3">
 <h3>Constructing the plot</h3>
 <pre class="r"><code>ggplot(interval_based, aes(x = interval, y = steps)) +
   geom_line(color = &quot;black&quot;)</code></pre>
@@ -344,8 +344,8 @@ mean_steps_all_data</code></pre>
 median_steps_all_data</code></pre>
 <pre><code>## [1] 10766.19</code></pre>
 </div>
-<div id="constructing-the-graph" class="section level3">
-<h3>Constructing the graph</h3>
+<div id="constructing-the-histogram-1" class="section level3">
+<h3>Constructing the histogram</h3>
 <pre class="r"><code>ggplot(steps_all_data, aes (x = steps)) +
   geom_histogram(fill = &quot;purple&quot;, binwidth = 900) +
   labs(title = &quot;Steps per day iincluding missing values&quot;, x = &quot;Steps per day&quot;, y = &quot;Frequency&quot;)</code></pre>
